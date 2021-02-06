@@ -1,8 +1,13 @@
 <?php 
   if($_POST) {
-
+  
+  $servername = "localhost";
+  $username = "";
+  $password = "";
+  $database = "";
+   
   // Database Connection
-  $conn = new mysqli("localhost", "studentb", "jmc", "studentDB");
+  $conn = new mysqli($servername, $username, $password, $database);
   
   // Check if error
   if($conn->connect_error) {
