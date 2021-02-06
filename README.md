@@ -12,7 +12,8 @@ Steps for run the project:
 2. Create a folder then paste the project files
 4. Open your browser navigate to localhost/phpmyadmin/ 
 5. Create a database and table with with sno, username and password columns
-6. Then open a browser Type localhost/foldername that you have created
+6. Update the username, password and database name in insert.php file
+7. Then open a browser Type localhost/foldername that you have created
 
 Then you can see this project running in your browser
 
